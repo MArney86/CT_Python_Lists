@@ -13,12 +13,3 @@ for grade in grades:
     total_sum += grade #add all the values in the list
 average =  total_sum / len(grades) #divide by the number of items in the list
 print(f"The average is {average}.") #display the average
-
-#Task 3:
-
-for grade in grades:
-    if grade < 80: #check if grade is less than 80
-        grades[grades.index(grade)] = "Failed" #Replace grade with the value Failed
-    else:
-        pass
-print(grades) #print the newly updated grades list for verification of operation

@@ -14,8 +14,3 @@ start_index += 1 #move index value up by one to get values above 100
 above_100 = temperatures[start_index:] #slice the list at new starting index til the end to capture all values above 100
 
 print(above_100) #display outcome of slice to user
-
-#Task 3:
-temperatures.reverse() #reverse the list
-fifth_to_tenth = temperatures[4:9] #grab slice from 5th to 10th days of reversed list
-print(fifth_to_tenth) #display slice to user
